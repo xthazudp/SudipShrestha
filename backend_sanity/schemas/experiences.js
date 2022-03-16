@@ -4,22 +4,15 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'year',
+      title: 'Year',
       type: 'string',
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'string',
-    },
-    {
-      name: 'imageurl',
-      title: 'ImgURL',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      name: 'works',
+      title: 'Works',
+      type: 'array',
+      of: [{ type: 'workExperience' }],
     },
   ],
 };

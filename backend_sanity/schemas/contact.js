@@ -4,22 +4,19 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'name',
+      title: 'Name',
       type: 'string',
     },
     {
-      name: 'description',
-      title: 'Description',
+      name: 'email',
+      title: 'Email',
       type: 'string',
     },
     {
-      name: 'imageurl',
-      title: 'ImgURL',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      name: 'message',
+      title: 'Message',
+      type: 'text',
     },
   ],
 };

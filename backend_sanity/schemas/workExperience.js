@@ -1,25 +1,18 @@
 export default {
-  name: 'workExpericence',
-  title: 'WorkExperience',
+  name: 'workExperience',
+  title: 'Work Experience',
   type: 'document',
   fields: [
+    { name: 'name', title: 'name', type: 'string' },
     {
-      name: 'title',
-      title: 'Title',
+      name: 'company',
+      title: 'Company',
       type: 'string',
     },
     {
-      name: 'description',
-      title: 'Description',
+      name: 'desc',
+      title: 'Desc',
       type: 'string',
-    },
-    {
-      name: 'imageurl',
-      title: 'ImgURL',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
     },
   ],
 };

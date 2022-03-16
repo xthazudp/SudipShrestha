@@ -4,18 +4,18 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'name',
+      title: 'Name',
       type: 'string',
     },
     {
-      name: 'description',
-      title: 'Description',
+      name: 'bgColor',
+      title: 'BgColor',
       type: 'string',
     },
     {
-      name: 'imageurl',
-      title: 'ImgURL',
+      name: 'icon',
+      title: 'Icon',
       type: 'image',
       options: {
         hotspot: true,
